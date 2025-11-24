@@ -6,7 +6,7 @@
 /*   By: vorhansa <vorhansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 13:49:29 by vorhansa          #+#    #+#             */
-/*   Updated: 2025/11/17 15:55:50 by vorhansa         ###   ########.fr       */
+/*   Updated: 2025/11/24 17:23:10 by vorhansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,3 +106,24 @@ char	*get_next_line(int fd)
 	buffer = ft_next(buffer);
 	return (line);
 }
+
+// int	main(void)
+// {
+// 	int		fd;
+// 	int		cnt;
+// 	char	*line;
+
+// 	cnt = 1;
+// 	fd = open("text", O_RDONLY);
+// 	printf("fd = %d\n", fd);
+// 	line = get_next_line(fd);
+// 	while (line != NULL)
+// 	{
+// 		printf("[%d]:%s\n", cnt, line);
+// 		free(line);
+// 		line = get_next_line(fd);
+// 		cnt++;
+// 	}
+// 	close (fd);
+// 	return (0);
+// }

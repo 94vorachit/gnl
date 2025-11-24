@@ -6,21 +6,19 @@
 /*   By: vorhansa <vorhansa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 13:49:33 by vorhansa          #+#    #+#             */
-/*   Updated: 2025/11/17 15:29:53 by vorhansa         ###   ########.fr       */
+/*   Updated: 2025/11/24 17:24:26 by vorhansa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1024
-# endif
-
 # include <stdlib.h> //malloc free
 # include <unistd.h> //read
-# include <sys/types.h> //size_t
-# include <sys/uio.h>
+// # include <sys/types.h> //size_t
+// # include <sys/uio.h>
+// # include <fcntl.h> //open
+// # include <stdio.h>
 
 size_t	ft_strlen(const char *str);
 
